@@ -43,7 +43,7 @@
             defaults="[object Object]"
           >
             <img
-              src="https://embed.filekitcdn.com/e/8Vt8DUSZVQYRUuiic59AgW/t3sXEGNRY3gmFHhd6Uw1YU"
+              src="/explain-enneagram.png"
               style="max-width:100%"
             />
           </div>
@@ -60,7 +60,7 @@
             style="color:#000000;font-weight:700"
           >
             <h2>
-              <strong>Learn the common mistakes made</strong> when explaining
+              Learn the <u>common mistakes</u> made when explaining
               the Enneagram <br /><small>(and how to fix them)</small>
             </h2>
           </div>
@@ -135,13 +135,13 @@
             style="color:#111111"
             type="Text"
             id="125720523"
-            content="<p style=&quot;text-align:center&quot;>5 Short Emails. 5 Lessons. 1 Path to Social Media Mastery</p>"
+            content="<p style=&quot;text-align:center&quot;>5 Short Emails. 5 Lessons. 1 More step in your coaching journey.</p>"
             element_id="924818a4-dbdb-47fb-9859-d2397ac49b24"
             order="0"
             region="subheading"
           >
             <p style="text-align:center">
-              5 Short Emails. 5 Lessons. 1 Path to Social Media Mastery
+              5 Short Emails. 5 Lessons. 1 More step in your coaching journey.
             </p>
           </div>
         </div>
@@ -152,7 +152,7 @@
             type="Text"
             id="125720524"
             content="
-            <p>Gone are the days of degrees, resumes, job interviews, and begging for pay raises. </p>
+            <p>Learn how to plant the seed so that your listeners get it. </p>
             <p>Learn the 5 mistakes Enneagram coaches make when explaining the Enneagram.</p>
             <ul class=&quot;unordered_list&quot; style=&quot;list-style-position:inside&quot;><li class=&quot;list_item&quot;><span>
                 Day 1:🙅 Not explaining your own enneagram number first. Why– If you don't explain your own bias, it limits the system and prevents the other person from being vulnerable and authentic.</span></li>
@@ -169,63 +169,65 @@
             region="content"
           >
             <p>
-              Gone are the days of degrees, resumes, job interviews, and begging
-              for pay raises.
+              Learn how to plant the seed so that your listeners get it.
             </p>
             <p>
-              Learn the 5 mistakes Enneagram coaches make when explaining the
-              Enneagram
+              Preview of the 5 mistakes 👇
             </p>
             <ul class="unordered_list" style="list-style-position:inside">
               <li class="list_item">
-                <span
-                  >Lesson 1:🙅
-                  <b>Not explaining your own enneagram number first.</b>
+                <span>
+                  <b class="lesson_number">Lesson 1:🙅
+                  Not explaining your own Enneagram number first.</b>
                   <br />
-                  Why– If you don't explain your own bias, it limits the system and
+                  <p style="margin-left: 1rem;">
+                    Why– If you don't explain your own bias, it limits the system and
                   prevents the other person from being vulnerable and authentic.
-                </span>
+                  </p>
+              </span>
               </li>
               <li class="list_item">
-                <span
-                  >Lesson 2:🌐
-                  <b>Not explaining the scope of the Enneagram.</b>
+                <span>
+                  <b class="lesson_number">Lesson 2:🌐
+                  Not explaining the scope of the Enneagram.</b>
                   <br />
-                  Why– There is a lot to cover, and the person you are explaining
-                  this to isn't going to understand the entire system in one sitting.</span
+                  <p style="margin-left: 1rem;">Why– There is a lot to cover, and the person you are explaining
+                  this to isn't going to understand the entire system in one sitting.</p>
+                </span
                 >
               </li>
               <li class="list_item">
-                <span
-                  >`Lesson 3:🧐
-                  <b>Not demystifying "Personality."</b>
+                <span>
+                  <b class="lesson_number">Lesson 3:🧐
+                  Not demystifying "Personality."</b>
                   <br />
-                  Why– This makes everything sound complicated and unapproachable.
-                  The person thinks this is all either scientific or pseudoscience.`</span
+                  <p style="margin-left: 1rem;">Why– This makes everything sound complicated and unapproachable.
+                  The person thinks this is all either scientific or pseudoscience.</p>
+                </span
                 >
               </li>
               <li class="list_item">
-                <span
-                  >Lesson 4:🎭
-                  <b>Not showing how the Enneagram is linked to emotions.</b>
+                <span>
+                  <b class="lesson_number">Lesson 4:🎭
+                  Not showing how the Enneagram is linked to emotions.</b>
                   <br />
-                  Why– The person will be biased towards their core emotion and may
-                  not accept the Enneagram system.</span
+                  <p style="margin-left: 1rem;">Why– The person will be biased towards their core emotion and may
+                  not accept the Enneagram system.</p>
+                  </span
                 >
               </li>
               <li class="list_item">
-                <span
-                  ><b
-                    >Lesson 5:🌟 Not giving examples of other famous Enneagram
+                <span>
+                  <b class="lesson_number">
+                    Lesson 5:🌟 Not giving examples of other famous Enneagram
                     types.</b
                   >
                   <br />
-                  Why– It's hard to psychoanalyze yourself, but it is easy to psychoanalyze
-                  other people.
-                </span>
+                  <p style="margin-left: 1rem;">Why– It's hard to psychoanalyze yourself, but it is easy to psychoanalyze
+                  other people.</p>
+                  </span>
               </li>
             </ul>
-            <p>​</p>
             <p>
               <strong>Written by DJ Wayne, </strong><u
                 ><strong
@@ -295,6 +297,9 @@
   }
   body:not(:-moz-handler-blocked) fieldset {
     display: table-cell;
+  }
+  body {
+    margin: 0;
   }
 
   h1,
@@ -1962,6 +1967,11 @@
     position: absolute;
   }
 
+  
+    .lesson_number {
+      text-wrap: balance;
+    }
+
   @media screen and (min-width: 700px) {
     .formkit-container {
       padding: 50px 45px 70px;
@@ -1973,6 +1983,11 @@
   }
 
   @media screen and (min-width: 1000px) {
+
+    .lesson_number{
+      text-wrap: nowrap;
+    }
+    
     .formkit-pattern {
       height: 100%;
       left: -300px;
@@ -1990,7 +2005,7 @@
       -webkit-box-pack: justify;
       justify-content: space-between;
       margin: 0 auto;
-      max-width: 1220px;
+      max-width: 1250px;
       padding: 65px 48px 70px;
     }
 
