@@ -1,3 +1,26 @@
+<svelte:head>
+  <title>Explain the Enneagram</title>
+  <meta
+    name="description"
+    content="The Enneagram Coach's Checklist: Learn the common mistakes made when explaining the Enneagram"
+  />
+  <link rel="canonical" href="https://www.explaintheenneagram.com" />
+
+  <meta property="og:site_name" content="Myth-Map" />
+  <meta property="og:title" content="Myth-Map home page" />
+  <meta
+    property="og:description"
+    content="The Enneagram Coach's Checklist: Learn the common mistakes made when explaining the Enneagram"
+  />
+  <meta property="og:url" content="https://www.explaintheenneagram.com" />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:image"
+    content={`https://www.explaintheenneagram.com/explain-enneagram.png`}
+  />
+  <meta property="og:image:type" content="image/png" />
+</svelte:head>
+
 <div class="formkit-page">
   <div class="formkit-page">
     <svg
@@ -42,10 +65,7 @@
             class="formkit-image formkit-form-image"
             defaults="[object Object]"
           >
-            <img
-              src="/explain-enneagram.png"
-              style="max-width:100%"
-            />
+            <img src="/explain-enneagram.png" style="max-width:100%" />
           </div>
         </div>
         <div
@@ -60,8 +80,8 @@
             style="color:#000000;font-weight:700"
           >
             <h2>
-              Learn the <u>common mistakes</u> made when explaining
-              the Enneagram <br /><small>(and how to fix them)</small>
+              Learn the <u>common mistakes</u> made when explaining the
+              Enneagram <br /><small>(and how to fix them)</small>
             </h2>
           </div>
           <div class="formkit-form-content">
@@ -168,53 +188,60 @@
             order="0"
             region="content"
           >
-            <p>
-              Learn how to plant the seed so that your listeners get it.
-            </p>
-            <p>
-              Preview of the 5 mistakes 👇
-            </p>
+            <p>Learn how to plant the seed so that your listeners get it.</p>
+            <p>Preview of the 5 mistakes 👇</p>
             <ul class="unordered_list" style="list-style-position:inside">
               <li class="list_item">
                 <span>
-                  <b class="lesson_number">Lesson 1:🙅
-                  Not explaining your own Enneagram number first.</b>
+                  <b class="lesson_number"
+                    >Lesson 1:🙅 Not explaining your own Enneagram number first.</b
+                  >
                   <br />
                   <p style="margin-left: 1rem;">
-                    Why– If you don't explain your own bias, it limits the system and
-                  prevents the other person from being vulnerable and authentic.
+                    Why– If you don't explain your own bias, it limits the
+                    system and prevents the other person from being vulnerable
+                    and authentic.
                   </p>
-              </span>
+                </span>
               </li>
               <li class="list_item">
                 <span>
-                  <b class="lesson_number">Lesson 2:🌐
-                  Not explaining the scope of the Enneagram.</b>
+                  <b class="lesson_number"
+                    >Lesson 2:🌐 Not explaining the scope of the Enneagram.</b
+                  >
                   <br />
-                  <p style="margin-left: 1rem;">Why– There is a lot to cover, and the person you are explaining
-                  this to isn't going to understand the entire system in one sitting.</p>
-                </span
-                >
+                  <p style="margin-left: 1rem;">
+                    Why– There is a lot to cover, and the person you are
+                    explaining this to isn't going to understand the entire
+                    system in one sitting.
+                  </p>
+                </span>
               </li>
               <li class="list_item">
                 <span>
-                  <b class="lesson_number">Lesson 3:🧐
-                  Not demystifying "Personality."</b>
+                  <b class="lesson_number"
+                    >Lesson 3:🧐 Not demystifying "Personality."</b
+                  >
                   <br />
-                  <p style="margin-left: 1rem;">Why– This makes everything sound complicated and unapproachable.
-                  The person thinks this is all either scientific or pseudoscience.</p>
-                </span
-                >
+                  <p style="margin-left: 1rem;">
+                    Why– This makes everything sound complicated and
+                    unapproachable. The person thinks this is all either
+                    scientific or pseudoscience.
+                  </p>
+                </span>
               </li>
               <li class="list_item">
                 <span>
-                  <b class="lesson_number">Lesson 4:🎭
-                  Not showing how the Enneagram is linked to emotions.</b>
+                  <b class="lesson_number"
+                    >Lesson 4:🎭 Not showing how the Enneagram is linked to
+                    emotions.</b
+                  >
                   <br />
-                  <p style="margin-left: 1rem;">Why– The person will be biased towards their core emotion and may
-                  not accept the Enneagram system.</p>
-                  </span
-                >
+                  <p style="margin-left: 1rem;">
+                    Why– The person will be biased towards their core emotion
+                    and may not accept the Enneagram system.
+                  </p>
+                </span>
               </li>
               <li class="list_item">
                 <span>
@@ -223,9 +250,11 @@
                     types.</b
                   >
                   <br />
-                  <p style="margin-left: 1rem;">Why– It's hard to psychoanalyze yourself, but it is easy to psychoanalyze
-                  other people.</p>
-                  </span>
+                  <p style="margin-left: 1rem;">
+                    Why– It's hard to psychoanalyze yourself, but it is easy to
+                    psychoanalyze other people.
+                  </p>
+                </span>
               </li>
             </ul>
             <p>
@@ -1967,10 +1996,9 @@
     position: absolute;
   }
 
-  
-    .lesson_number {
-      text-wrap: balance;
-    }
+  .lesson_number {
+    text-wrap: balance;
+  }
 
   @media screen and (min-width: 700px) {
     .formkit-container {
@@ -1983,11 +2011,10 @@
   }
 
   @media screen and (min-width: 1000px) {
-
-    .lesson_number{
+    .lesson_number {
       text-wrap: nowrap;
     }
-    
+
     .formkit-pattern {
       height: 100%;
       left: -300px;
