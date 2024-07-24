@@ -6,8 +6,8 @@
   />
   <link rel="canonical" href="https://www.explaintheenneagram.com" />
 
-  <meta property="og:site_name" content="Myth-Map" />
-  <meta property="og:title" content="Myth-Map home page" />
+  <meta property="og:site_name" content="Explain the Enneagram" />
+  <meta property="og:title" content="The Enneagram Coach's Checklist" />
   <meta
     property="og:description"
     content="The Enneagram Coach's Checklist: Learn the common mistakes made when explaining the Enneagram"
