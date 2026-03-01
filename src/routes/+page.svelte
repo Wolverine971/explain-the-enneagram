@@ -16,7 +16,7 @@
   <meta property="og:type" content="website" />
   <meta
     property="og:image"
-    content={`https://www.explaintheenneagram.com/explain-enneagram.png`}
+    content="https://www.explaintheenneagram.com/explain-enneagram.png"
   />
   <meta property="og:image:type" content="image/png" />
 </svelte:head>
@@ -63,9 +63,9 @@
         <div class="formkit-image-container">
           <div
             class="formkit-image formkit-form-image"
-            defaults="[object Object]"
+            data-defaults="[object Object]"
           >
-            <img src="/explain-enneagram.png" style="max-width:100%" />
+            <img src="/explain-enneagram.png" alt="Explain the Enneagram" style="max-width:100%" />
           </div>
         </div>
         <div
@@ -88,14 +88,14 @@
             <div
               class="formkit-text"
               style="color:#000000"
-              type="Text"
+              data-type="Text"
               id="9766420518"
-              content="<p>​</p>"
-              element_id="14b70abf-9c52-402d-afcf-16501635eed8"
-              order="0"
-              region="form_content"
+              data-content="<p></p>"
+              data-element-id="14b70abf-9c52-402d-afcf-16501635eed8"
+              data-order="0"
+              data-region="form_content"
             >
-              <p>​</p>
+              <p></p>
             </div>
           </div>
           <form
@@ -119,7 +119,7 @@
                   style="font-size:16px;background-color:#ffffff;color:#45244A;font-weight:400;border-color:#45244A;border-radius:5px"
                   placeholder="Enter Your Best Email Address"
                   aria-label="Enter Your Best Email Address"
-                  required=""
+                  required
                 />
               </div>
               <button
@@ -153,12 +153,12 @@
           <div
             class="formkit-text"
             style="color:#111111"
-            type="Text"
+            data-type="Text"
             id="125720523"
-            content="<p style=&quot;text-align:center&quot;>5 Short Emails. 5 Lessons. 1 More step in your coaching journey.</p>"
-            element_id="924818a4-dbdb-47fb-9859-d2397ac49b24"
-            order="0"
-            region="subheading"
+            data-content="<p style=&quot;text-align:center&quot;>5 Short Emails. 5 Lessons. 1 More step in your coaching journey.</p>"
+            data-element-id="924818a4-dbdb-47fb-9859-d2397ac49b24"
+            data-order="0"
+            data-region="subheading"
           >
             <p style="text-align:center">
               5 Short Emails. 5 Lessons. 1 More step in your coaching journey.
@@ -169,24 +169,24 @@
           <div
             class="formkit-text"
             style="color:#111111"
-            type="Text"
+            data-type="Text"
             id="125720524"
-            content="
+            data-content="
             <p>Learn how to plant the seed so that your listeners get it. </p>
             <p>Learn the 5 mistakes Enneagram coaches make when explaining the Enneagram.</p>
             <ul class=&quot;unordered_list&quot; style=&quot;list-style-position:inside&quot;><li class=&quot;list_item&quot;><span>
                 Day 1:🙅 Not explaining your own enneagram number first. Why– If you don't explain your own bias, it limits the system and prevents the other person from being vulnerable and authentic.</span></li>
 <li class=&quot;list_item&quot;><span>Day 2:🌐 Not explaining the scope of the Enneagram. Why– There is a lot to cover, and the person you are explaining this to isn't going to understand the entire system in one sitting.</span></li>
-<li class=&quot;list_item&quot;><span>{`Day 3:🧐 Not demystifying "Personality." Why– This makes everything sound complicated and unapproachable. The person thinks this is all either scientific or pseudoscience.`}</span></li>
+<li class=&quot;list_item&quot;><span>Day 3:🧐 Not demystifying &quot;Personality.&quot; Why– This makes everything sound complicated and unapproachable. The person thinks this is all either scientific or pseudoscience.</span></li>
 <li class=&quot;list_item&quot;><span>Day 4:🎭 Not showing how the Enneagram is linked to emotions. Why– The person will be biased towards their core emotion and may not accept the Enneagram system.</span></li>
 <li class=&quot;list_item&quot;><span>Day 5:🌟 Not giving examples of other famous Enneagram types. Why– It's hard to psychoanalyze yourself, but it is easy to psychoanalyze other people.</span></li>
-</ul><p>​</p><p><strong>Written by DJ Wayne, </strong><u><strong>an average guy has been obsessed with the Enneagram for 5+
+</ul><p></p><p><strong>Written by DJ Wayne, </strong><u><strong>an average guy has been obsessed with the Enneagram for 5+
                   years</strong></u>
 
 "
-            element_id="72ecbf2c-8743-4679-bc95-0d0e7bf95f07"
-            order="0"
-            region="content"
+            data-element-id="72ecbf2c-8743-4679-bc95-0d0e7bf95f07"
+            data-order="0"
+            data-region="content"
           >
             <p>Learn how to plant the seed so that your listeners get it.</p>
             <p>Preview of the 5 mistakes 👇</p>
@@ -279,8 +279,8 @@
                 >
               </li>
             </ul>
-            <p><u><strong>​</strong></u></p>
-            <p>​</p>
+            <p><u><strong></strong></u></p>
+            <p></p>
           </div>
         </div>
       </div>
